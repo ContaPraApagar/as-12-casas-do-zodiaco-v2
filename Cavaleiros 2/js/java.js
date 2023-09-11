@@ -40,7 +40,7 @@ function MudaDesenho(){
     }
     else if((valor=="leao" || valor=="Leao" || valor=="Leão" || valor=="Leão") || (dia >= 23 && dia <= 31 && mes == 8 || dia >= 1 && dia <= 22 && mes == 9)){
         texto.innerHTML = "Leão";
-        texto1.innerHTML = "Aiolia de Leão, Irmão de Aiolos. Apesar de sua personalidade explosiva, tem um coração puro que distingue rapidamente os justos, por isso foi um dos primeiros Cavaleiros de Ouro a reconhecer a autoridade de Atena. Como seu irmão Aiolos foi condenado como traidor, ele tenta limpar o nome da família jurando fidelidade ao Grande Mestre, até participando voluntariamente do extermínio dos Cavaleiros de Bronze. Durante a batalha contra os Espectros, enfrentou o exército inimigo de frente e derrubou muitos Espectros, servindo como poder central de ataque no Santuário.";
+        texto1.innerHTML = "Aioria de Leão, Irmão de Aioros. Apesar de sua personalidade explosiva, tem um coração puro que distingue rapidamente os justos, por isso foi um dos primeiros Cavaleiros de Ouro a reconhecer a autoridade de Atena. Como seu irmão Aiolos foi condenado como traidor, ele tenta limpar o nome da família jurando fidelidade ao Grande Mestre, até participando voluntariamente do extermínio dos Cavaleiros de Bronze. Durante a batalha contra os Espectros, enfrentou o exército inimigo de frente e derrubou muitos Espectros, servindo como poder central de ataque no Santuário.";
         imagem.setAttribute("src","./img/leao.jpg");
         imagem.setAttribute("width","400px");
     }
@@ -58,7 +58,7 @@ function MudaDesenho(){
     }
     else if((valor=="sagitario" || valor=="Sagitario" || valor=="sagitário" || valor=="Sagitário") || (dia >= 22 && dia <= 30 && mes == 11 || dia >= 1 && dia <= 21 && mes == 12)){
         texto.innerHTML = "Sagitário";
-        texto1.innerHTML = "Aiolos de Sagitário é o Cavaleiro de Ouro de Sagitário do século XX. Antes de morrer, há 13 anos, entregou Atena ainda bebê e sua Armadura de Ouro aos cuidados de Mitsumasa Kido, que estava viajando pela Grécia.";
+        texto1.innerHTML = "Aioros de Sagitário é o Cavaleiro de Ouro de Sagitário do século XX. Antes de morrer, há 13 anos, entregou Atena ainda bebê e sua Armadura de Ouro aos cuidados de Mitsumasa Kido, que estava viajando pela Grécia.";
         imagem.setAttribute("src","./img/sagitario.jpg");
         imagem.setAttribute("width","400px");
     }
