@@ -33,7 +33,7 @@ function MudaDesenho(){
         imagem.setAttribute("width","400px");
     }
     else if((valor=="aries" || valor=="Aries" || valor=="áries" || valor=="Áries") || (dia >= 21 && dia <= 31 && mes == 3 || dia >= 1 && dia <= 20 && mes == 4)){
-        texto.innerHTML = "Aries";
+        texto.innerHTML = "Áries";
         texto1.innerHTML = "Mu de Áries é o Cavaleiro de Ouro de Áries do século XX, que protege a Casa de Áries no Santuário. Hábil na restauração de Armaduras, é ele quem conserta as Armaduras de Bronze do Seiya e dos outros antes da Batalha das Doze Casas do Zodíaco. Como desde cedo desconfiava do Grande Mestre, deu as costas ao Santuário. Porém, desejando a purificação do local, manteve suas obrigações como Cavaleiro, dedicando-se à restauração das Armaduras em Jamiel.";
         imagem.setAttribute("src","./img/aries.jpg");
         imagem.setAttribute("width","400px");
@@ -63,7 +63,7 @@ function MudaDesenho(){
         imagem.setAttribute("width","400px");
     }
     else if((valor=="libra" || valor=="Libra") || (dia >= 23 && dia <= 30 && mes == 9 || dia >= 1 && dia <= 22 && mes == 10)){
-        texto.innerHTML = "libra";
+        texto.innerHTML = "Libra";
         texto1.innerHTML = "Dohko de Libra fora um lendário e renomado Cavaleiro de Ouro do Santuário de Atena por ter lutado e sobrevivido a Guerra Santa contra Hades no Século XVIII ao lado de seu parceiro de batalhas, Shion de Áries.";
         imagem.setAttribute("src","./img/libra.jpg");
         imagem.setAttribute("width","400px");
